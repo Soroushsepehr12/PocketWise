@@ -7,6 +7,10 @@ Pocketwise helps users manage their personal finances through a clean, modern in
 The goal of Pocketwise is to provide a simple but powerful money management experience while exploring real-world desktop application development.
 
 ---
+# 🎥 Demo Video
+
+Watch the Pocketwise demonstration on YouTube: 
+https://youtu.be/bDZoxMEuGwM
 
 # ✨ Features
 
