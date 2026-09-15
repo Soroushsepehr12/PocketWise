@@ -7,10 +7,14 @@ Pocketwise helps users manage their personal finances through a clean, modern in
 The goal of Pocketwise is to provide a simple but powerful money management experience while exploring real-world desktop application development.
 
 ---
+
 # 🎥 Demo Video
 
-Watch the Pocketwise demonstration on YouTube: 
-https://youtu.be/bDZoxMEuGwM
+Click the image below to watch the Pocketwise demonstration:
+
+[![Pocketwise Demo](https://img.youtube.com/vi/bDZoxMEuGwM/maxresdefault.jpg)](https://youtu.be/bDZoxMEuGwM)
+
+---
 
 # ✨ Features
 
@@ -127,50 +131,55 @@ Pocketwise uses SQLite for local data storage.
 
 The database is automatically created when the application runs.
 
-Tables include:
+## Database Tables
 
-## users
+### users
 
 Stores user information.
 
 Fields:
+
 - ID
 - Name
 - Creation date
 
-## balance
+### balance
 
 Stores balance information.
 
 Fields:
+
 - ID
 - Balance
 
-## income
+### income
 
 Stores income records.
 
 Fields:
+
 - ID
 - Amount
 - Source
 - Date
 - Description
 
-## expenses
+### expenses
 
 Stores expense records.
 
 Fields:
+
 - ID
 - Amount
 - Date
 
-## saving
+### saving
 
 Stores saving goals.
 
 Fields:
+
 - ID
 - Target
 - Amount
@@ -179,105 +188,3 @@ Fields:
 ---
 
 # 📁 Project Structure
-
-```
-Pocketwise/
-
-├── main(1).py
-│   └── PyQt6 User Interface
-│
-├── MainTwo.py
-│   └── Application Logic + SQLite Database
-│
-├── requirements.txt
-│
-└── README.md
-```
-
----
-
-# 🧩 Technologies
-
-## Python
-
-Used for:
-- Application logic
-- Database control
-- Program structure
-
-## PyQt6
-
-Used for:
-- GUI creation
-- Widgets
-- Layouts
-- Styling
-
-## SQLite
-
-Used for:
-- Local database storage
-- Saving user financial data
-
----
-
-# ⚙️ Installation
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python MainTwo.py
-```
-
----
-
-# 📦 Requirements
-
-```
-PyQt6
-```
-
-Recommended:
-
-```
-Python 3.10+
-```
-
----
-
-# 🚀 Future Plans
-
-Possible future updates:
-
-- User authentication
-- Multiple profiles
-- Financial charts
-- Monthly reports
-- Expense categories
-- Budget planning
-- Data export
-- Cloud backup
-- Mobile version
-
----
-
-# 🎨 Development Philosophy
-
-Pocketwise focuses on:
-
-- Simple financial management
-- Clean user experience
-- Maintainable code structure
-- Learning real desktop software architecture
-
----
-
-# 📜 License
-
-This project is currently intended for educational and personal development use.
